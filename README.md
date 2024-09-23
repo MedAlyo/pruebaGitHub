@@ -31,10 +31,17 @@ $ sudo apt install git
 ```
 $ git --version
 ```
-5. Create a repository in Github website named **pruebaGitHub**.
-6. Go back to the Terminal and write:
+5. Go back to the Terminal and write:
 ```
 $ git config --global user.email “<myGithubEmail>”
 $ git config --global user.name “<myGithubName>”
 ```
-7. 
+6. We create a new repository in Github and upload the file.
+```
+$ git init
+$ git add .
+$ git commit -m “Upload the test file”
+$ git push
+```
+At some point it may ask for a GitHub token. They can be obtained from **GitHub** → **Account Settings** → **Developer Settings** (On the left, at the bottom) → **Personal access tokens** → **Generate new token**.
+8. Check Github if the file has been uploaded correctly.  
